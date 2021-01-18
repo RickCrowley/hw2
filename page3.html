@@ -1,35 +1,51 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>assIsTance Staff</title>
+        <title>ASSISTANCE Staff</title>
 
         <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
     </head>
-    <body>
-        <h1>ass<em>I</em>s<em>T</em>ance Staff</h1>
+    <body class="bg-gray-300 m-4">
+        <h1 class="text-center text-indigo-800 uppercase font-bold text-7xl py-4">ass<em>I</em>s<em>T</em>ance Staff</h1>
 
-        <hr>
-
-        <h4><a href="index.html">Home<a></a> / <a href="page2.html">Services<a></a> / <a href="page3.html">Staff<a></a></h4>
+        <h4 class="text-indigo-600 font-bold"><a href="index.html">Home<a></a> | <a href="page2.html">Services<a></a> | <a href="page3.html">Staff<a></a></h4>
     
-        <hr>
+        <p class="text-indigo-600 text-xl m-4">Our trained staff of digital natives are well versed in all the technolgies of the day. If your assistant is not the expert you need, we won't rest until your problem is solved.</p>
 
-        <h3><em> When technology gets you down, we'll pick you up!</em></h3>
+        <p class="flex"> <img class="w-1/3 rounded-xl m-4 mx-20" src="images/helping 1.jfif"> <img class="w-1/3 rounded-xl m-4 mx-20" src="images/helping 2.jfif"></p>
 
-        <p>Our trained staff of digital natives are well versed in all the technolgies of the day. If your technician is not the expert you need, we won't rest until your problem is solved.</p>
-
-        <p> <img src="images/helping 1.jfif"> <img src="images/helping 2.jfif"></p>
-
-        <p><strong>No question is too big or too small:</strong></p>
-        <ul>
-           <li> Not sure what <em>that</em> icon is for?<strong> We can help!</strong></li>
-           <li>Something on the TV won't stop blinking.<strong> We can help!</strong></li> 
-           <li>Still trying to figure out how to send that first Tweet.<strong> We can help!</strong></li>
-           <li>Wondering how to save your Google Doc.<strong> We can help!</strong></li>
-        </ul>
-
+        <div class="text-indigo-600 text-xl m-4">
+          <p><strong>No question is too big or too small:</strong></p>
+          <ul class="p-2">
+             <li> Not sure what <em>that</em> icon is for?<strong> We can help!</strong></li>
+             <li>Something on the TV won't stop blinking.<strong> We can help!</strong></li> 
+             <li>Still trying to figure out how to send that first Tweet.<strong> We can help!</strong></li>
+             <li>Wondering how to save your Google Doc.<strong> We can help!</strong></li>
+          </ul>
+        </div>
         
+        <h4 class="font-bold text-indigo-600 text-xl m-4">Let's get started today! Call (888) 555-5555.</h4>
 
-        <h4>Let's get started today! Call (888) 555-5555.</h4>
+        <div class="text-indigo-600 text-xl m-8">
+            <p class="font-bold"> Still have questions? Contact us:</p>
+
+            <form netlify class="w-0 space-y-2">
+                
+                <label for="name">Name</label>
+                <input class="rounded space-y-2" type="text" id="name" name="name">
+
+                <label for="email">Email</label>
+                <input class="rounded space-y-2" type="text" id="email" email="email">
+
+                <label for="questions">Questions?</label>
+                <input class="rounded" type="text" id="question" question="question" style="width: 600px; height: 100px;">
+                
+                <button class="block mt-4 text-white bg-indigo-500 rounded px-4 py-2">Submit!</button>
+            </form>
+
+        </div>
+
+
+        <h3 class="text-center text-indigo-600 uppercase font-bold text-3xl p-6"><em> When technology gets you down, we'll pick you up!</em></h3>
     </body>
 </html>
