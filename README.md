@@ -1,1 +1,3 @@
 # hw2
+assIsTance is a fictional IT services company providing technical support primarily targeting the elderly population. The average age of the American population increases every year and the rate of technological change is as incessant as ever. These two facts seem to be a collision course. assIsTance aims to be there to support the aging population as it continues to adopt the newest technologies. The website has 3 pages. The Home Page gives the company overview. The Services page describes the services offered. The Staff page discusses provides additional information on the focus of the staff and assIsTance’s approach to service.
+https://hw2rickcrowley.netlify.app
